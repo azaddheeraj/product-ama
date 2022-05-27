@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon | Task 2 By Ensvee</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="./images/logo.png">
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    
+</head>
+
+<body>
+
+    <nav id="navbar">
+
+        <span class="ham">
+            <a href="#" onclick="opensidemenu()">
+                <svg width="50" height="50">
+                    <path d="M0,5 50,5" stroke="white" stroke-width="5" />
+                    <path d="M0,18 50,18" stroke="white" stroke-width="5" />
+                    <path d="M0,32 50,32" stroke="white" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+
+        <!-- Navigation -->
+          <img src="./images/logo.png" alt="logo" width="150">
+
+        <ul class="navbar-nav">
+            <div class="f-box"><li><a href="#">Home</a></li></div>
+            <div class="f-box"><li><a href="#slider">Featured</a></li></div>
+            <div class="f-box"><li><a href="#products">Products</a></li></div>
+        </ul>
+    </nav>
+
+    <div id="sidemenu" class="sidenav">
+        <a href="#" class="btn-close" onclick="closesidemenu()">&times</a>
+        <a href="#">Home</a>
+        <a href="#">Featured</a>
+        <a href="#">Products</a>
+    </div>
+
+        <!-- show case -->
+
+        <section id="show-case">
+            <div class="flex-showcase">
+                <div class="flex-item">
+                    <h1>AMAZING SHOES AT AN AMAZING PRICE</h1>
+                </div>
+                <div class="flex-item">
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veniam itaque, eum ullam quidem
+                    </P>
+                </div>
+                <div class="flex-item">
+                    <button class="btn">SEE WHAT WE HAVE</button>
+                </div>
+            </div>
+        </section> 
+
+        <!-- Showcase end -->
+
+        <!-- Featured - carousel -->
+
+        <section id="slider" class="pt-1">
+            <div class="container">
+                <h1 class="text-center pt-5"><b>Featured Products</b></h1>
+                <div class="slider">
+                    <div class="owl-carousel">
+                        <div class="slider-card">
+                            <div class="d-flex mb-4">
+                                <img src="./images/image1.png" alt="shoes">
+                            </div>
+                            <h5 class="text-center p-4">₹2499</h5>
+    
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex mb-4">
+                                <img src="./images/image2.png" alt="shoes" class="img-1">
+                            </div>
+                            <h5 class="text-center p-4">₹2999</h5>
+    
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex mb-4">
+                                <img src="./images/image3.png" alt="shoes" class="m-t">
+                            </div>
+                            <h5 class="text-center p-4">₹2899</h5>
+    
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex mb-4">
+                                <img src="./images/image4.png" alt="shoes" class="img-1">
+                            </div>
+                            <h5 class="text-center p-4">₹2599</h5>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        
+        <!-- Featured - carousel end -->
+
+        <!-- Our Products -->
+
+        <section id="products">
+            <h1>Our Products</h1>
+    
+            <div class="product-item">
+                
+                <div class="f-product-item-1">
+    
+                    <img src="./images/image5.png" alt="shoes">
+                    <div class="f-product-info">
+    
+                        <h2>A Really Nice Shoes</h2>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, inventore asperiores accusamus
+                            sint
+                            voluptas culpa quaerat debitis in quis facilis.</p>
+    
+                        <p>₹5000</p>
+                    </div>
+    
+                </div>
+    
+                <div class="f-product-item-2">
+    
+                    <div class="f-product-info">
+                        <h2>A Really Nice Shoes</h2>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, inventore asperiores accusamus
+                            sint
+                            voluptas culpa quaerat debitis in quis facilis.</p>
+    
+                        <p>₹5000</p>
+                    </div>
+    
+                    <img src="./images/image6.png" alt="shoes">
+    
+                </div>
+            </div>
+    
+        </section>
+
+        <!-- Our Products End-->
+
+        <footer>
+            <div class="container">
+            &copy, 2022
+            </div>
+        </footer>
+
+
+    <!-- Java Script for ham -->
+
+    <Script>
+        function opensidemenu(){
+            document.getElementById('sidemenu').style.width="250px";
+        }
+
+        function closesidemenu(){
+            document.getElementById('sidemenu').style.width="0";
+        }
+    </Script>
+
+    <!-- Java Script End -->
+
+    <!-- Js for carousel -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="./js/carosel.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- Js for carousel end -->
+
+</body>
+
+</html>
+
